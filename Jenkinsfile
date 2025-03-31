@@ -11,9 +11,9 @@ pipeline {
         }
     }
     stages {
-        stage('List all files') {
+        stage('Check node version') {
             steps {
-                ls- a
+                bat "node -v"
             }
         }
     }
