@@ -10,4 +10,11 @@ pipeline {
             }
         }
     }
+    stages {
+        stage('List all files') {
+            steps {
+                ls- a
+            }
+        }
+    }
 }
