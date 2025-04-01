@@ -18,7 +18,7 @@ jobs:
 
   hello:
 
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
 
@@ -27,7 +27,7 @@ jobs:
         run: echo Hello, world!
 
   node-ver:
-    runs-on: ubuntu-latest
+    runs-on: npm
     steps:
       - uses: actions/checkout@v4
       - name: Chek Node Version
